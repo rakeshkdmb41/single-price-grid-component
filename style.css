@@ -101,3 +101,9 @@ main {
   font-size: 0.75rem;
   margin-bottom: 0.1rem;
 }
+
+@media(max-width: 550px) {
+  .monthly-subscription-container {
+    flex-direction: column;
+  }
+}
