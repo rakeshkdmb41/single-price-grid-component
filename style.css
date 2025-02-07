@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(204, 43%, 93%);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Karla, sans-serif;
+  font-size: 14px;
+}
+
+main {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.join-community {
+  background-color: white;
+  padding: 1.7rem;
+}
+
+.join-community h2 {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 1.5rem;
+}
+
+.join-community .hassle-free {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.join-community .description {
+  color: hsl(218, 22%, 67%);
+  margin-bottom: 4px;
+}
+
+.monthly-subscription-container {
+  display: flex;
+}
+
+.monthly-subscription-container > * {
+  width: 100%;
+  padding: 2rem;
+}
+
+.monthly-subscription {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.monthly-subscription h2 {
+  font-size: 1.05rem;
+}
+
+.price {
+  color: hsl(0, 0%, 80%);
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+
+.price .dollar {
+  color: white;
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-right: 10px;
+}
+
+.full-access {
+  margin-bottom: 1.4rem;
+}
+
+.sign-up-btn {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  border: 0;
+  font-weight: 700;
+  padding: 0.85rem 4.4rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.why-us {
+  background-color: hsl(179, 62%, 47%);
+}
+
+.why-us h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.why-us p {
+  color: rgb(220, 220, 220);
+  font-size: 0.75rem;
+  margin-bottom: 0.1rem;
+}
